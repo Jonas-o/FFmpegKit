@@ -1,4 +1,4 @@
-// swift-tools-version: 6.2
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "FFmpegKit",
     platforms: [
-        .iOS(.v12_1)
+        .iOS(.v12)
     ],
     products: [
         .library(
